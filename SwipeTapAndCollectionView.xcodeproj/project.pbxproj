@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B4866AB1EF77428005AB869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866AA1EF77428005AB869 /* main.m */; };
+		7B4866AE1EF77428005AB869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866AD1EF77428005AB869 /* AppDelegate.m */; };
+		7B4866B11EF77429005AB869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866B01EF77429005AB869 /* ViewController.m */; };
+		7B4866B41EF77429005AB869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4866B21EF77429005AB869 /* Main.storyboard */; };
+		7B4866B61EF77429005AB869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4866B51EF77429005AB869 /* Assets.xcassets */; };
+		7B4866B91EF77429005AB869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4866B71EF77429005AB869 /* LaunchScreen.storyboard */; };
+		7B4866C41EF77429005AB869 /* SwipeTapAndCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866C31EF77429005AB869 /* SwipeTapAndCollectionViewTests.m */; };
+		7B4866D11EF77670005AB869 /* SwipeTapCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866D01EF77670005AB869 /* SwipeTapCollectionView.m */; };
+		7B4866D41EF77691005AB869 /* ShowItemsCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866D31EF77691005AB869 /* ShowItemsCollectionView.m */; };
+		7B4866D71EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866D61EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.m */; };
+		7B4866DC1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866DB1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.m */; };
+		7B4866E01EF7B490005AB869 /* UILabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866DE1EF7B490005AB869 /* UILabelCollectionViewCell.m */; };
+		7B4866E11EF7B490005AB869 /* UILabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4866DF1EF7B490005AB869 /* UILabelCollectionViewCell.xib */; };
+		7B4866E51EF7C380005AB869 /* UICollectionCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866E41EF7C380005AB869 /* UICollectionCellBackgroundView.m */; };
+		7B4866E81EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4866E71EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.m */; };
+		7BF854421EF8C836007C3040 /* SwipeTapCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF854411EF8C836007C3040 /* SwipeTapCollectionViewModel.m */; };
+		7BF854451EF91423007C3040 /* NSString+untils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF854441EF91423007C3040 /* NSString+untils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B4866C01EF77429005AB869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B48669E1EF77428005AB869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B4866A51EF77428005AB869;
+			remoteInfo = SwipeTapAndCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B4866A61EF77428005AB869 /* SwipeTapAndCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTapAndCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4866AA1EF77428005AB869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B4866AC1EF77428005AB869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B4866AD1EF77428005AB869 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B4866AF1EF77428005AB869 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B4866B01EF77429005AB869 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B4866B31EF77429005AB869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B4866B51EF77429005AB869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B4866B81EF77429005AB869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B4866BA1EF77429005AB869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4866BF1EF77429005AB869 /* SwipeTapAndCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTapAndCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4866C31EF77429005AB869 /* SwipeTapAndCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTapAndCollectionViewTests.m; sourceTree = "<group>"; };
+		7B4866C51EF77429005AB869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4866CF1EF77670005AB869 /* SwipeTapCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTapCollectionView.h; sourceTree = "<group>"; };
+		7B4866D01EF77670005AB869 /* SwipeTapCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTapCollectionView.m; sourceTree = "<group>"; };
+		7B4866D21EF77691005AB869 /* ShowItemsCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowItemsCollectionView.h; sourceTree = "<group>"; };
+		7B4866D31EF77691005AB869 /* ShowItemsCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowItemsCollectionView.m; sourceTree = "<group>"; };
+		7B4866D51EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTapCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		7B4866D61EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTapCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		7B4866DA1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowItemsCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		7B4866DB1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowItemsCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		7B4866DD1EF7B490005AB869 /* UILabelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelCollectionViewCell.h; sourceTree = "<group>"; };
+		7B4866DE1EF7B490005AB869 /* UILabelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelCollectionViewCell.m; sourceTree = "<group>"; };
+		7B4866DF1EF7B490005AB869 /* UILabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UILabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		7B4866E31EF7C380005AB869 /* UICollectionCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionCellBackgroundView.h; sourceTree = "<group>"; };
+		7B4866E41EF7C380005AB869 /* UICollectionCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionCellBackgroundView.m; sourceTree = "<group>"; };
+		7B4866E61EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionCellSelectedBackgroundView.h; sourceTree = "<group>"; };
+		7B4866E71EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionCellSelectedBackgroundView.m; sourceTree = "<group>"; };
+		7BF854401EF8C836007C3040 /* SwipeTapCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTapCollectionViewModel.h; sourceTree = "<group>"; };
+		7BF854411EF8C836007C3040 /* SwipeTapCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTapCollectionViewModel.m; sourceTree = "<group>"; };
+		7BF854431EF91423007C3040 /* NSString+untils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+untils.h"; sourceTree = "<group>"; };
+		7BF854441EF91423007C3040 /* NSString+untils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+untils.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B4866A31EF77428005AB869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4866BC1EF77429005AB869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B48669D1EF77428005AB869 = {
+			isa = PBXGroup;
+			children = (
+				7B4866A81EF77428005AB869 /* SwipeTapAndCollectionView */,
+				7B4866C21EF77429005AB869 /* SwipeTapAndCollectionViewTests */,
+				7B4866A71EF77428005AB869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B4866A71EF77428005AB869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866A61EF77428005AB869 /* SwipeTapAndCollectionView.app */,
+				7B4866BF1EF77429005AB869 /* SwipeTapAndCollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B4866A81EF77428005AB869 /* SwipeTapAndCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866AC1EF77428005AB869 /* AppDelegate.h */,
+				7B4866AD1EF77428005AB869 /* AppDelegate.m */,
+				7B4866AF1EF77428005AB869 /* ViewController.h */,
+				7B4866B01EF77429005AB869 /* ViewController.m */,
+				7B4866B21EF77429005AB869 /* Main.storyboard */,
+				7B4866CE1EF77615005AB869 /* Views */,
+				7B4866B51EF77429005AB869 /* Assets.xcassets */,
+				7B4866B71EF77429005AB869 /* LaunchScreen.storyboard */,
+				7B4866BA1EF77429005AB869 /* Info.plist */,
+				7B4866A91EF77428005AB869 /* Supporting Files */,
+			);
+			path = SwipeTapAndCollectionView;
+			sourceTree = "<group>";
+		};
+		7B4866A91EF77428005AB869 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866AA1EF77428005AB869 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B4866C21EF77429005AB869 /* SwipeTapAndCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866C31EF77429005AB869 /* SwipeTapAndCollectionViewTests.m */,
+				7B4866C51EF77429005AB869 /* Info.plist */,
+			);
+			path = SwipeTapAndCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		7B4866CE1EF77615005AB869 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BF854461EF91434007C3040 /* NSMutableAttributedString */,
+				7B4866E21EF7B4A1005AB869 /* CollectionCell */,
+				7B4866D81EF77E28005AB869 /* SwipeTapCollection */,
+				7B4866D91EF77E34005AB869 /* ShowItemsCollection */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7B4866D81EF77E28005AB869 /* SwipeTapCollection */ = {
+			isa = PBXGroup;
+			children = (
+				7BF854471EF92ABA007C3040 /* Layout */,
+				7BF854401EF8C836007C3040 /* SwipeTapCollectionViewModel.h */,
+				7BF854411EF8C836007C3040 /* SwipeTapCollectionViewModel.m */,
+				7B4866CF1EF77670005AB869 /* SwipeTapCollectionView.h */,
+				7B4866D01EF77670005AB869 /* SwipeTapCollectionView.m */,
+			);
+			name = SwipeTapCollection;
+			sourceTree = "<group>";
+		};
+		7B4866D91EF77E34005AB869 /* ShowItemsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866D21EF77691005AB869 /* ShowItemsCollectionView.h */,
+				7B4866D31EF77691005AB869 /* ShowItemsCollectionView.m */,
+				7B4866DA1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.h */,
+				7B4866DB1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.m */,
+			);
+			name = ShowItemsCollection;
+			sourceTree = "<group>";
+		};
+		7B4866E21EF7B4A1005AB869 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866DD1EF7B490005AB869 /* UILabelCollectionViewCell.h */,
+				7B4866DE1EF7B490005AB869 /* UILabelCollectionViewCell.m */,
+				7B4866DF1EF7B490005AB869 /* UILabelCollectionViewCell.xib */,
+				7B4866E31EF7C380005AB869 /* UICollectionCellBackgroundView.h */,
+				7B4866E41EF7C380005AB869 /* UICollectionCellBackgroundView.m */,
+				7B4866E61EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.h */,
+				7B4866E71EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.m */,
+			);
+			name = CollectionCell;
+			sourceTree = "<group>";
+		};
+		7BF854461EF91434007C3040 /* NSMutableAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				7BF854431EF91423007C3040 /* NSString+untils.h */,
+				7BF854441EF91423007C3040 /* NSString+untils.m */,
+			);
+			name = NSMutableAttributedString;
+			sourceTree = "<group>";
+		};
+		7BF854471EF92ABA007C3040 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				7B4866D51EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.h */,
+				7B4866D61EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B4866A51EF77428005AB869 /* SwipeTapAndCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4866C81EF77429005AB869 /* Build configuration list for PBXNativeTarget "SwipeTapAndCollectionView" */;
+			buildPhases = (
+				7B4866A21EF77428005AB869 /* Sources */,
+				7B4866A31EF77428005AB869 /* Frameworks */,
+				7B4866A41EF77428005AB869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTapAndCollectionView;
+			productName = SwipeTapAndCollectionView;
+			productReference = 7B4866A61EF77428005AB869 /* SwipeTapAndCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B4866BE1EF77429005AB869 /* SwipeTapAndCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4866CB1EF77429005AB869 /* Build configuration list for PBXNativeTarget "SwipeTapAndCollectionViewTests" */;
+			buildPhases = (
+				7B4866BB1EF77429005AB869 /* Sources */,
+				7B4866BC1EF77429005AB869 /* Frameworks */,
+				7B4866BD1EF77429005AB869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B4866C11EF77429005AB869 /* PBXTargetDependency */,
+			);
+			name = SwipeTapAndCollectionViewTests;
+			productName = SwipeTapAndCollectionViewTests;
+			productReference = 7B4866BF1EF77429005AB869 /* SwipeTapAndCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B48669E1EF77428005AB869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JY_Test;
+				TargetAttributes = {
+					7B4866A51EF77428005AB869 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8VZ54253Z4;
+						ProvisioningStyle = Automatic;
+					};
+					7B4866BE1EF77429005AB869 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B4866A51EF77428005AB869;
+					};
+				};
+			};
+			buildConfigurationList = 7B4866A11EF77428005AB869 /* Build configuration list for PBXProject "SwipeTapAndCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B48669D1EF77428005AB869;
+			productRefGroup = 7B4866A71EF77428005AB869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B4866A51EF77428005AB869 /* SwipeTapAndCollectionView */,
+				7B4866BE1EF77429005AB869 /* SwipeTapAndCollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B4866A41EF77428005AB869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4866B91EF77429005AB869 /* LaunchScreen.storyboard in Resources */,
+				7B4866B61EF77429005AB869 /* Assets.xcassets in Resources */,
+				7B4866B41EF77429005AB869 /* Main.storyboard in Resources */,
+				7B4866E11EF7B490005AB869 /* UILabelCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4866BD1EF77429005AB869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B4866A21EF77428005AB869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4866B11EF77429005AB869 /* ViewController.m in Sources */,
+				7B4866DC1EF77E4E005AB869 /* ShowItemsCollectionViewFlowLayout.m in Sources */,
+				7B4866D71EF77E1F005AB869 /* SwipeTapCollectionViewFlowLayout.m in Sources */,
+				7B4866E01EF7B490005AB869 /* UILabelCollectionViewCell.m in Sources */,
+				7B4866D41EF77691005AB869 /* ShowItemsCollectionView.m in Sources */,
+				7BF854451EF91423007C3040 /* NSString+untils.m in Sources */,
+				7BF854421EF8C836007C3040 /* SwipeTapCollectionViewModel.m in Sources */,
+				7B4866AE1EF77428005AB869 /* AppDelegate.m in Sources */,
+				7B4866AB1EF77428005AB869 /* main.m in Sources */,
+				7B4866D11EF77670005AB869 /* SwipeTapCollectionView.m in Sources */,
+				7B4866E51EF7C380005AB869 /* UICollectionCellBackgroundView.m in Sources */,
+				7B4866E81EF7D5A4005AB869 /* UICollectionCellSelectedBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4866BB1EF77429005AB869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4866C41EF77429005AB869 /* SwipeTapAndCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B4866C11EF77429005AB869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B4866A51EF77428005AB869 /* SwipeTapAndCollectionView */;
+			targetProxy = 7B4866C01EF77429005AB869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B4866B21EF77429005AB869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4866B31EF77429005AB869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B4866B71EF77429005AB869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B4866B81EF77429005AB869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B4866C61EF77429005AB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B4866C71EF77429005AB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B4866C91EF77429005AB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VZ54253Z4;
+				INFOPLIST_FILE = SwipeTapAndCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JY-Test.SwipeTapAndCollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B4866CA1EF77429005AB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8VZ54253Z4;
+				INFOPLIST_FILE = SwipeTapAndCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JY-Test.SwipeTapAndCollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B4866CC1EF77429005AB869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeTapAndCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JY-Test.SwipeTapAndCollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTapAndCollectionView.app/SwipeTapAndCollectionView";
+			};
+			name = Debug;
+		};
+		7B4866CD1EF77429005AB869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeTapAndCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JY-Test.SwipeTapAndCollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTapAndCollectionView.app/SwipeTapAndCollectionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B4866A11EF77428005AB869 /* Build configuration list for PBXProject "SwipeTapAndCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4866C61EF77429005AB869 /* Debug */,
+				7B4866C71EF77429005AB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4866C81EF77429005AB869 /* Build configuration list for PBXNativeTarget "SwipeTapAndCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4866C91EF77429005AB869 /* Debug */,
+				7B4866CA1EF77429005AB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4866CB1EF77429005AB869 /* Build configuration list for PBXNativeTarget "SwipeTapAndCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4866CC1EF77429005AB869 /* Debug */,
+				7B4866CD1EF77429005AB869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B48669E1EF77428005AB869 /* Project object */;
+}
